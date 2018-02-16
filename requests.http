@@ -1,0 +1,34 @@
+GET http://localhost:8080/
+
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "value": 80,
+    "from" : "lilit",
+    "target" : "dsxack"
+}
+
+###
+
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "value": 120,
+    "from" : "lilit",
+    "target" : "dsxack"
+}
+
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "value": 20,
+    "from" : "lilit",
+    "target" : "dsxack"
+}
+
+###
